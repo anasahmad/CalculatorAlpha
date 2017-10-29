@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82946621F4A052400D6F673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A82946611F4A052400D6F673 /* main.m */; };
+		A82946651F4A052400D6F673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A82946641F4A052400D6F673 /* AppDelegate.m */; };
+		A82946681F4A052400D6F673 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82946671F4A052400D6F673 /* ViewController.m */; };
+		A829466B1F4A052400D6F673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82946691F4A052400D6F673 /* Main.storyboard */; };
+		A829466E1F4A052400D6F673 /* BaatCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A829466C1F4A052400D6F673 /* BaatCalculator.xcdatamodeld */; };
+		A82946701F4A052400D6F673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A829466F1F4A052400D6F673 /* Assets.xcassets */; };
+		A82946731F4A052400D6F673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82946711F4A052400D6F673 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A829465D1F4A052400D6F673 /* BaatCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaatCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82946611F4A052400D6F673 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A82946631F4A052400D6F673 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A82946641F4A052400D6F673 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A82946661F4A052400D6F673 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A82946671F4A052400D6F673 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A829466A1F4A052400D6F673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A829466D1F4A052400D6F673 /* BaatCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BaatCalculator.xcdatamodel; sourceTree = "<group>"; };
+		A829466F1F4A052400D6F673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A82946721F4A052400D6F673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A82946741F4A052400D6F673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A829465A1F4A052400D6F673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A82946541F4A052300D6F673 = {
+			isa = PBXGroup;
+			children = (
+				A829465F1F4A052400D6F673 /* BaatCalculator */,
+				A829465E1F4A052400D6F673 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A829465E1F4A052400D6F673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A829465D1F4A052400D6F673 /* BaatCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A829465F1F4A052400D6F673 /* BaatCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				A82946631F4A052400D6F673 /* AppDelegate.h */,
+				A82946641F4A052400D6F673 /* AppDelegate.m */,
+				A82946661F4A052400D6F673 /* ViewController.h */,
+				A82946671F4A052400D6F673 /* ViewController.m */,
+				A82946691F4A052400D6F673 /* Main.storyboard */,
+				A829466F1F4A052400D6F673 /* Assets.xcassets */,
+				A82946711F4A052400D6F673 /* LaunchScreen.storyboard */,
+				A82946741F4A052400D6F673 /* Info.plist */,
+				A829466C1F4A052400D6F673 /* BaatCalculator.xcdatamodeld */,
+				A82946601F4A052400D6F673 /* Supporting Files */,
+			);
+			path = BaatCalculator;
+			sourceTree = "<group>";
+		};
+		A82946601F4A052400D6F673 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A82946611F4A052400D6F673 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A829465C1F4A052400D6F673 /* BaatCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82946771F4A052400D6F673 /* Build configuration list for PBXNativeTarget "BaatCalculator" */;
+			buildPhases = (
+				A82946591F4A052400D6F673 /* Sources */,
+				A829465A1F4A052400D6F673 /* Frameworks */,
+				A829465B1F4A052400D6F673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaatCalculator;
+			productName = BaatCalculator;
+			productReference = A829465D1F4A052400D6F673 /* BaatCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A82946551F4A052300D6F673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Anas Ahmad";
+				TargetAttributes = {
+					A829465C1F4A052400D6F673 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E262HCYWK3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A82946581F4A052300D6F673 /* Build configuration list for PBXProject "BaatCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A82946541F4A052300D6F673;
+			productRefGroup = A829465E1F4A052400D6F673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A829465C1F4A052400D6F673 /* BaatCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A829465B1F4A052400D6F673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82946731F4A052400D6F673 /* LaunchScreen.storyboard in Resources */,
+				A82946701F4A052400D6F673 /* Assets.xcassets in Resources */,
+				A829466B1F4A052400D6F673 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A82946591F4A052400D6F673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82946681F4A052400D6F673 /* ViewController.m in Sources */,
+				A829466E1F4A052400D6F673 /* BaatCalculator.xcdatamodeld in Sources */,
+				A82946651F4A052400D6F673 /* AppDelegate.m in Sources */,
+				A82946621F4A052400D6F673 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A82946691F4A052400D6F673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A829466A1F4A052400D6F673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A82946711F4A052400D6F673 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82946721F4A052400D6F673 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A82946751F4A052400D6F673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A82946761F4A052400D6F673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A82946781F4A052400D6F673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E262HCYWK3;
+				INFOPLIST_FILE = BaatCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anas.BaatCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A82946791F4A052400D6F673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E262HCYWK3;
+				INFOPLIST_FILE = BaatCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anas.BaatCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A82946581F4A052300D6F673 /* Build configuration list for PBXProject "BaatCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82946751F4A052400D6F673 /* Debug */,
+				A82946761F4A052400D6F673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82946771F4A052400D6F673 /* Build configuration list for PBXNativeTarget "BaatCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82946781F4A052400D6F673 /* Debug */,
+				A82946791F4A052400D6F673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A829466C1F4A052400D6F673 /* BaatCalculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A829466D1F4A052400D6F673 /* BaatCalculator.xcdatamodel */,
+			);
+			currentVersion = A829466D1F4A052400D6F673 /* BaatCalculator.xcdatamodel */;
+			path = BaatCalculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A82946551F4A052300D6F673 /* Project object */;
+}
